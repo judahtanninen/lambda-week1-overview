@@ -75,3 +75,28 @@ section.inline-block .block{
 	border:2px solid #ddd;
 	display:inline-block;
 }
+
+section.flex-box{
+	text-align:center;
+	padding:30px;
+}
+
+section.flex-box .flex-child{
+	display:flex;
+	flex-wrap: wrap;
+	width:700px;
+	margin:auto;
+}
+
+section.flex-box .block{
+
+	margin:30px;
+	width:100px;
+	height:100px;
+	border:2px solid #ddd;
+}
+
+section.flex-box .one{
+
+	background-color:teal;
+}
