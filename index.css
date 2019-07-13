@@ -48,4 +48,20 @@ table {
 }
 
 /* Code Starts here */
+*{
+    margin:30px 0;
+}
 
+header nav{
+    display: flex;
+    justify-content:space-around;
+}
+
+header nav a{
+    color:gray;
+    text-decoration:none;
+}
+
+section.inline-block{
+    text-align:center;
+}
