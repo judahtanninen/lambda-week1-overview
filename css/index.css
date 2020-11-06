@@ -28,8 +28,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+header {
+	margin: 30px;
+}
 body {
 	line-height: 1;
+	background-color: green;
 }
 ol, ul {
 	list-style: none;
@@ -94,9 +99,5 @@ section.flex-box .block{
 	width:100px;
 	height:100px;
 	border:2px solid #ddd;
-}
-
-section.flex-box .one{
-
-	background-color:teal;
+	background-color: red;
 }
